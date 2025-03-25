@@ -15,6 +15,7 @@ public class Main {
         FlappyBird flappyBird = new FlappyBird();
         frame.add(flappyBird);
         frame.pack();   //setting the width and height not including the header of the window
+        flappyBird.requestFocus();
         frame.setVisible(true);
 
     }
